@@ -1,7 +1,4 @@
-Perfeito, Gabriel! Com os endereços SH e SL dos 3 módulos XBee em mãos, vamos montar o exemplo prático onde o **ESP1** envia:
 
-1. Uma mensagem para o **ESP2**
-2. Depois, uma mensagem para o **ESP3**
 
 Utilizando o **modo API**, com envio de **frames 0x10** e recepção via **frames 0x90**.
 
