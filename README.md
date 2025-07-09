@@ -119,19 +119,4 @@ Você pode depois configurar para que eles **respondam automaticamente**, se qui
 
 ---
 
-## ✅ Pronto para testar!
 
-Com isso:
-
-* O **ESP1** envia mensagens para o ESP2 e depois para o ESP3, usando API mode via XBee.
-* O **ESP2** e **ESP3** recebem, interpretam e exibem o conteúdo.
-
----
-
-Se quiser, posso:
-
-* ✅ Adicionar **resposta automática** no ESP2 e ESP3
-* 🔄 Montar um esquema de **"ping-pong"**
-* 📡 Adicionar **broadcast** do ESP1 para todos
-
-Deseja expandir com alguma dessas opções?
