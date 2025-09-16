@@ -4,7 +4,7 @@ Utilizando o **modo API**, com envio de **frames 0x10** e recepção via **frame
 
 ---
 
-## ✅ Endereços de 64 bits (SH + SL)
+## Endereços de 64 bits (SH + SL)
 
 | Nome | SH     | SL       | Endereço 64-bit           |
 | ---- | ------ | -------- | ------------------------- |
@@ -14,7 +14,7 @@ Utilizando o **modo API**, com envio de **frames 0x10** e recepção via **frame
 
 ---
 
-## ✅ Função de Envio (frame 0x10)
+## Função de Envio (frame 0x10)
 
 ```c
 void send_api_message(const uint8_t dest_addr[8], const char *msg) {
@@ -52,7 +52,7 @@ void send_api_message(const uint8_t dest_addr[8], const char *msg) {
 
 ---
 
-## ✅ Função Receptora (frame 0x90)
+##  Função Receptora (frame 0x90)
 
 ```c
 void task_receive_xbee(void *arg) {
@@ -86,7 +86,7 @@ void task_receive_xbee(void *arg) {
 
 ---
 
-## ✅ `app_main()` no ESP1 – Envia para ESP2 e depois para ESP3
+##  `app_main()` no ESP1 – Envia para ESP2 e depois para ESP3
 
 ```c
 void app_main() {
@@ -111,7 +111,7 @@ void app_main() {
 
 ---
 
-## ✅ ESP2 e ESP3
+## ESP2 e ESP3
 
 Ambos usam o mesmo `task_receive_xbee()` e `uart_init()`, e **não precisam enviar nada nesse exemplo** — apenas receber e exibir a mensagem.
 
